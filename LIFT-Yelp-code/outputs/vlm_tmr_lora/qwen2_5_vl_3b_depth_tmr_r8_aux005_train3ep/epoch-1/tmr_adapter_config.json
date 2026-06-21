@@ -1,0 +1,45 @@
+{
+  "adapter_method": "tmr_lora",
+  "target_modules": [
+    "q_proj",
+    "k_proj",
+    "v_proj",
+    "o_proj",
+    "gate_proj",
+    "up_proj",
+    "down_proj"
+  ],
+  "lora_rank": 8,
+  "lora_alpha": 16,
+  "lora_dropout": 0.05,
+  "tmr_num_experts": 3,
+  "tmr_routing": "learned",
+  "tmr_aux_weight": 0.05,
+  "tmr_head_labels": [
+    1,
+    2
+  ],
+  "tmr_tail_labels": [
+    0,
+    3,
+    4
+  ],
+  "tmr_head_weights": [
+    0.5,
+    0.5,
+    0.0
+  ],
+  "tmr_tail_weights": [
+    0.5,
+    0.0,
+    0.5
+  ],
+  "tmr_oracle_fallback": "uniform",
+  "tmr_depth_attention": true,
+  "tmr_depth_block_size": 8,
+  "tmr_depth_max_blocks": 8,
+  "tmr_depth_context_scale": 0.1,
+  "class_balanced_sampling": false,
+  "saved_epoch": 1,
+  "global_step": 874
+}

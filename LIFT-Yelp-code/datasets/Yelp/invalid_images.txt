@@ -1,0 +1,7 @@
+/data00/zhiyuan_huang/datasets/Yelp/yelp_filtered_image/ydm3g1wUWSxJnMPgHk2JhQ.jpg
+/data00/zhiyuan_huang/datasets/Yelp/yelp_filtered_image/JGpfPj8VEvnq1B-Xqr3w-A.jpg
+/data00/zhiyuan_huang/datasets/Yelp/yelp_filtered_image/bf3ymV0YgP7B6rEoriaU2w.jpg
+/data00/zhiyuan_huang/datasets/Yelp/yelp_filtered_image/juDNZOOnkgG3QINFrulsAg.jpg
+/data00/zhiyuan_huang/datasets/Yelp/yelp_filtered_image/9X4YPM8nYFjf7hY8xUdc6Q.jpg
+/data00/zhiyuan_huang/datasets/Yelp/yelp_filtered_image/N6hL8FQ84A2DznF2S2Lp7g.jpg
+/data00/zhiyuan_huang/datasets/Yelp/yelp_filtered_image/pY32hIagdxrL4Nsi959EQg.jpg

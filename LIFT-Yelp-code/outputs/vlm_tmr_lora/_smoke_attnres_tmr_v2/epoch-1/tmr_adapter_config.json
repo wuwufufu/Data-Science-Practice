@@ -1,0 +1,70 @@
+{
+  "adapter_method": "tmr_lora",
+  "target_modules": [
+    "q_proj",
+    "k_proj",
+    "v_proj",
+    "o_proj",
+    "gate_proj",
+    "up_proj",
+    "down_proj"
+  ],
+  "lora_rank": 4,
+  "lora_alpha": 8,
+  "lora_dropout": 0.05,
+  "tmr_num_experts": 6,
+  "tmr_routing": "learned",
+  "tmr_aux_weight": 0.05,
+  "tmr_head_labels": [
+    1,
+    2
+  ],
+  "tmr_tail_labels": [
+    0,
+    3,
+    4
+  ],
+  "tmr_head_weights": [
+    0.5,
+    0.5,
+    0.0
+  ],
+  "tmr_tail_weights": [
+    0.5,
+    0.0,
+    0.5
+  ],
+  "tmr_oracle_fallback": "uniform",
+  "tmr_expert_layout": "shared_class",
+  "tmr_class_labels": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "tmr_class_expert_weight": 0.6,
+  "tmr_menu_label": 3,
+  "tmr_menu_expert_weight": 0.7,
+  "tmr_router_entropy_weight": 0.005,
+  "tmr_router_balance_weight": 0.01,
+  "tmr_depth_attention": false,
+  "tmr_depth_block_size": 8,
+  "tmr_depth_max_blocks": 8,
+  "tmr_depth_context_scale": 0.1,
+  "tmr_attnres": true,
+  "tmr_attnres_mode": "full",
+  "tmr_attnres_block_size": 7,
+  "tmr_attnres_max_blocks": 8,
+  "tmr_attnres_context_scale": 0.03,
+  "tmr_attnres_residual_scale": 0.01,
+  "tmr_image_token_ids": [
+    151652,
+    151653,
+    151654,
+    151655
+  ],
+  "class_balanced_sampling": false,
+  "saved_epoch": 1,
+  "global_step": 2
+}

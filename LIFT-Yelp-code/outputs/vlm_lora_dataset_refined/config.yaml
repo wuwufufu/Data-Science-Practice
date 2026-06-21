@@ -1,0 +1,6 @@
+data_dir: datasets/Yelp
+image_root: /root/autodl-tmp/.autodl
+output_dir: outputs/vlm_lora_dataset_refined
+splits: train,val,test
+formats: hf_jsonl,qwen_jsonl
+seed: 0

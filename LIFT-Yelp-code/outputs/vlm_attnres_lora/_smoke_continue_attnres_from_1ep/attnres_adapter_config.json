@@ -1,0 +1,26 @@
+{
+  "adapter_method": "attnres_lora",
+  "target_modules": [
+    "q_proj",
+    "k_proj",
+    "v_proj",
+    "o_proj",
+    "gate_proj",
+    "up_proj",
+    "down_proj"
+  ],
+  "lora_rank": 4,
+  "lora_alpha": 8,
+  "lora_dropout": 0.05,
+  "attnres_block_size": 7,
+  "attnres_max_blocks": 8,
+  "attnres_scale": 0.03,
+  "attnres_image_token_ids": [
+    151652,
+    151653,
+    151654,
+    151655
+  ],
+  "class_balanced_sampling": false,
+  "init_adapter_dir": "outputs/vlm_attnres_lora/qwen2_5_vl_3b_attnres_lora_r4_train1ep"
+}

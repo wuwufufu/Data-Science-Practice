@@ -1,0 +1,85 @@
+{
+  "accuracy": 10.0,
+  "macro_f1": 3.6363636363636362,
+  "weighted_f1": 1.8181818181818181,
+  "worst_class_recall": 0.0,
+  "worst_class_accuracy": 0.0,
+  "per_class": {
+    "drink": {
+      "precision": 10.0,
+      "recall": 100.0,
+      "f1": 18.181818181818183,
+      "support": 1
+    },
+    "food": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 3
+    },
+    "inside": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 5
+    },
+    "menu": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 0
+    },
+    "outside": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 1
+    }
+  },
+  "confusion_matrix_labels": [
+    "drink",
+    "food",
+    "inside",
+    "menu",
+    "outside"
+  ],
+  "confusion_matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      3,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      5,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "num_samples": 10,
+  "num_parse_failures": 0
+}

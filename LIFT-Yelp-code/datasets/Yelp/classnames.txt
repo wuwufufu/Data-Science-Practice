@@ -1,0 +1,5 @@
+0 drink
+1 food
+2 inside
+3 menu
+4 outside

@@ -1,0 +1,6 @@
+data_dir: datasets/Yelp
+image_root: /tmp/yelp_images
+output_dir: /root/LIFT-Yelp-code/outputs/_smoke_vlm_dataset
+splits: test
+formats: hf_jsonl,llava_json,qwen_jsonl
+seed: 0

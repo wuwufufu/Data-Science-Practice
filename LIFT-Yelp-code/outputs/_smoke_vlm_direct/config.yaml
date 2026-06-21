@@ -1,0 +1,13 @@
+model: mock
+model_name_or_path: null
+split: test
+mode: image_caption_definition
+data_dir: datasets/Yelp
+image_root: /tmp/yelp_images
+output_dir: /root/LIFT-Yelp-code/outputs/_smoke_vlm_direct
+seed: 0
+max_samples: 10
+device: auto
+torch_dtype: auto
+max_new_tokens: 8
+trust_remote_code: false

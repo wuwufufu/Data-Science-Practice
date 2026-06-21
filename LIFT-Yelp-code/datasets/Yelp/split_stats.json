@@ -1,0 +1,24 @@
+{
+  "seed": 42,
+  "num_classes": 5,
+  "num_samples_total": 19993,
+  "num_missing_images": 0,
+  "num_invalid_images": 7,
+  "num_samples_per_split": {
+    "train": 13993,
+    "val": 1998,
+    "test": 4002
+  },
+  "caption_missing_rate_per_split": {
+    "train": 0.514614450082184,
+    "val": 0.5145145145145145,
+    "test": 0.5147426286856571
+  },
+  "label2idx": {
+    "drink": 0,
+    "food": 1,
+    "inside": 2,
+    "menu": 3,
+    "outside": 4
+  }
+}
